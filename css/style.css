@@ -1,0 +1,21 @@
+*  {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    color: black;
+    
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom:9px;
+}
+
+h2  {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
