@@ -19,3 +19,13 @@ h2  {
     font-size: 25px;
     margin-bottom: 30px;
 }
+
+.carousel-item {
+    
+    height:500px;
+  }
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
