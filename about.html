@@ -1,124 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Latest compiled and minified CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Option 1: Include in HTML -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <title>Document</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Option 1: Include in HTML -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">TFA</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Men's
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="mens-tops.html">TOPS</a></li>
-                <li>
-                  <a class="dropdown-item" href="men's bottom.html">BOTTOMS</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Women's
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="women-tops.html">TOPS</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="women-bottoms.html">BOTTOMS</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="about.html"
-                >About Us</a
-              >
-            </li>
-          </ul>
-
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
+        <div class="logo">
+          <a class="navbar-brand" href="#">
+            <img src="./images/small logo.PNG" alt="..." style="width:40px;" class="rounded-pill">
+          </a>
         </div>
+
       </div>
     </nav>
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"><strong>Home</strong></a>
+          </li>
 
-    <div class="container">
-     <h1>About Us</h1>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <strong>Men's</strong>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="mens-tops.html">TOPS</a></li>
+              <li>
+                <a class="dropdown-item" href="men's bottom.html">BOTTOMS</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <strong>Women's</strong>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="women-tops.html">TOPS</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="women-bottoms.html">BOTTOMS</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about.html"><strong>About Us</strong></a>
+          </li>
+        </ul>
+        <div class="logo">
+          <img src="./images/loger.PNG" alt="..." style="width:160px;" class="center">
+
+        </div>
+
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
     </div>
+  </nav>
 
-    <div>
-        <h2>Our Story</h2>
-        <p class="text-end">  Djerf Avenue has always been something I’ve wanted to build. It’s been a dream since I was a little girl.
-            
-            Djerf Avenue was created in 2019. The name came to us when we were having breakfast at All Time in Los Feliz, LA. We want you to feel like you’re walking down an avenue that breathes Djerf Avenue when you enter our world.
-            
-            Djerf Avenue is a Swedish,  non-seasonal, ready-to-wear brand. It’s created for you, by us. Born out of our love for vintage and the perfect basics Djerf Avenue is made to embody the confident, chic, and laid-back person on the go. Each piece is created with love, from design to production. We want to deliver pieces that feel timeless and that will last.
+  <div class="container">
+    <h1><strong>ABOUT US</strong></h1>
+  </div>
+
+  <div>
+    <h2>Our Story</h2>
+    <p> Creating a fashion brand has always been a dream of ours. Since we were little girls watching fashion shows and playing dress up, we've fantasized about one day designing something of our own!
+       So, to be given this amazing oppurtunity to create a brand from scratch,
+       to watch our website grow and evolve since it was founded in 2021 has truly been, in every sense of the word, a dream come true. 
+       The
+       Support our brand by purchasing one of our handmade, unique products and follow our journey here, at "The Fashion Atelier"!
+
+       However, just as we are grateful for everything we were given we recognize it is our duty to give back. Since our founding, here at the "The Fashion Atelier" we've been committed to making a difference. 
 
 
-            Our pieces are ethically produced and manufactured in Portugal, Italy & Sweden. We have designed each piece to feel timeless and to work together. We want you to wear Djerf Avenue often. We want to be the basics in your wardrobe that you can always go to. We believe in timeless designs that will work for years to come.
-            </p>
-            <img src="./images/about us 1.PNG" class="float-start">
-    </div>
-    
+      
+      We never thought that we would actually accomplish this “want” in our life but here we are. </p>
+    <img src="./images/as 1.PNG" class="card-img-top" alt="..." />
+    <p>“The Fashion Atelier” is a French, on-seasonal, ready-to-wear brand. Its created for you, by us. Born out of love
+      for vintage and the perfect basics Avenue is made to embody the confident, chic, and laid-back person on the go.
+    <p>Each piece is created with love, from design to production. </p>
+    <img src="./images/about us 3.PNG" class="card-img-top" alt="..." />
+    <p>Our pieces are ethically produced and manufactured in Greece, Italy & France. We want to be the basics in your
+      wardrobe that you can always go to. We believe in timeless designs that will work for years to come. With our
+      pieces we want to make sure everyone feels safe and sure in their own skin. We want to celebrate diversity through
+      our designs.</p>
+      <img src="./images/as3.PNG" class="card-img-top" alt="...">
+
+
+
+
     <!--Footer-->
     <footer class="text-center text-white" style="background-color: #f1f1f1">
       <!-- Grid container -->
@@ -126,63 +122,36 @@
         <!-- Section: Social media -->
         <section class="mb-4">
           <!-- Facebook -->
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="bi bi-facebook"></i
-          ></a>
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+            data-mdb-ripple-color="dark"><i class="bi bi-facebook"></i></a>
 
           <!-- Twitter -->
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="bi bi-twitter"></i
-          ></a>
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+            data-mdb-ripple-color="dark"><i class="bi bi-twitter"></i></a>
 
           <!-- Google -->
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="bi bi-google"></i
-          ></a>
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+            data-mdb-ripple-color="dark"><i class="bi bi-google"></i></a>
 
           <!-- Instagram -->
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="bi bi-instagram"></i
-          ></a>
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+            data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
 
           <!-- Linkedin -->
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="bi bi-linkedin"></i
-          ></a>
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+            data-mdb-ripple-color="dark"><i class="bi bi-linkedin"></i></a>
         </section>
         <!-- Section: Social media -->
       </div>
       <!-- Grid container -->
 
       <!-- Copyright -->
-      <div
-        class="text-center text-dark p-3"
-        style="background-color: rgba(0, 0, 0, 0.2)"
-      >
+      <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2)">
         © 2023 Copyright: Contact us at 6946583216
         <a class="text-dark">Find us at Kapodistriou 23, Kolonaki 10676</a>
       </div>
       <!-- Copyright -->
     </footer>
-  </body>
+</body>
+
 </html>

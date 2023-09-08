@@ -4,20 +4,30 @@
 }
 
 body {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align:center;
+    font-family:Garamond;
+     text-align:center;
     color: black;
-    
+
 }
+
 
 h1 {
     font-size: 45px;
-    margin-bottom:9px;
+    margin-bottom:10px;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 45spx;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 h2  {
+    
     font-size: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .carousel-item {
@@ -28,4 +38,17 @@ h2  {
 .card-container {
     display: flex;
     justify-content: space-between;
+
+}
+
+.card {
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+
+.me-auto{
+    margin-right: unset !important;
+}
+
+#navbarSupportedContent{
+    justify-content: inherit;
 }
